@@ -12,8 +12,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/lblh1_OtherActivity"
         android:text="Other Activity Man XD"
         android:padding="10pt">
     </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnClosec"
+        android:onClick="onClickClose"
+        android:text="Close"
+        android:layout_below="@+id/lblh1_OtherActivity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></Button>
 
 </RelativeLayout>
